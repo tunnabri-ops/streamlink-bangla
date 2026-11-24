@@ -1,0 +1,9 @@
+# Streamlink config — Bangla-ready defaults
+# Copy to ~/.config/streamlink/config
+player=mpv
+player-args=--cache=yes --demuxer-max-bytes=256M
+default-stream=best
+# Keep the terminal quiet, show only errors and the stream info
+loglevel=info
+# Retry once if a stream is briefly down
+stream-segment-attempts=3
